@@ -778,7 +778,7 @@ def non_max_suppression(prediction,
                         iou_thres=0.45,
                         classes=None,
                         agnostic=False,
-                        multi_label=False,
+                        multi_label=True,
                         labels=(),
                         max_det=300):
     """Non-Maximum Suppression (NMS) on inference results to reject overlapping bounding boxes
